@@ -28,4 +28,5 @@ stacksup ./stacksup.json
 ```
 
 Below is an example of the output to be expected:
+
 ![Example output from Stacksup](http://i.imgur.com/EkcVruP.png)
