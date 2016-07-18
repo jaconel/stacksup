@@ -1,7 +1,7 @@
 {
   "name": "stacksup",
   "version": "0.0.1",
-  "description": "Used to determine whether the instances of specified stacks are up and running",
+  "description": "Used to determine whether the instances of specified AWS Opsworks tacks are up and running",
   "main": "index.js",
   "dependencies": {
     "aws-sdk": "^2.4.7",

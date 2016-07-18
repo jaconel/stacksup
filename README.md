@@ -1,5 +1,5 @@
 # StacksUp
-Small command line utility used to verify which of the instances in our stacks are up and running as expected.
+Small command line utility used to verify which of the instances in our AWS Opsworks stacks are up and running as expected.
 
 It reads a very basic config file containing an array of stack ids and then determines and prints out the state of the instances linked to these stacks.
 
