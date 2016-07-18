@@ -1,6 +1,6 @@
 {
   "name": "stacksup",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Used to determine whether the instances of specified stacks are up and running",
   "main": "index.js",
   "dependencies": {
