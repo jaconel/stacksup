@@ -52,7 +52,6 @@ fs.stat(process.argv[2], (err, stats) => {
             head: ['Instance', 'Status']
         });
 
-        let count = 0;
         stacks.forEach((stack) => {
             stack.Instances.forEach((instance) => {
                 let status;
@@ -66,9 +65,7 @@ fs.stat(process.argv[2], (err, stats) => {
                     default:
                         status = instance.Status.red;
                 }
-                // table.push([instance.Hostname, status]);
-                table.push(['staging-node5-0' + count, status])
-                count = count + 1;
+                table.push([instance.Hostname, status]);
             });
         });
 
